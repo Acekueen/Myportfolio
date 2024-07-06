@@ -10,7 +10,7 @@ function Particle() {
           number: {
             value: 160,
             density: {
-              enable: true,
+              enable: false,
               value_area: 1500,
             },
           },
@@ -23,11 +23,11 @@ function Particle() {
             speed: 0.05,
           },
           size: {
-            value: 1,
+            value: 0,
           },
           opacity: {
             anim: {
-              enable: true,
+              enable: false,
               speed: 1,
               opacity_min: 0.05,
             },
@@ -36,7 +36,7 @@ function Particle() {
         interactivity: {
           events: {
             onclick: {
-              enable: true,
+              enable: false,
               mode: "push",
             },
           },
