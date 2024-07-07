@@ -4,7 +4,10 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import laptopImg from "../../Assets/welcome.jpg";
+import aboutme2 from "../../Assets/Aboutme2.jpg";
+import aboutme3 from "../../Assets/Aboutme3.jpeg";
+import aboutme5 from "../../Assets/aboutme5.jpg";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -22,7 +25,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              ABOUT <strong className="purple">ME</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -32,6 +35,15 @@ function About() {
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
+            <br/><br/>
+            <br/>
+            <img src={aboutme2} alt="about" className="img-fluid" />
+            <br/><br/>
+            <br/>
+            <img src={aboutme3} alt="about" className="img-fluid" />
+            <br/><br/>
+            <br/>
+            <img src={aboutme5} alt="about" className="img-fluid" />
           </Col>
         </Row>
         <h1 className="project-heading">

@@ -155,8 +155,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 3em !important;
+  width: 3.2m !important;
 }
 
 .navbar-nav .nav-link {
@@ -307,13 +307,13 @@ button:focus {
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  padding-top: 13em !important;
 }
 
 @media (max-width: 767px) {
   .myAvtar {
     padding-top: 2em !important;
-    padding-bottom: 2em !important;
+    padding-bottom: 1em !important;
   }
 }
 
@@ -736,7 +736,7 @@ button:focus {
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
   background-color: #4ccea35e !important;
-  border-color: #4ccea35e !important;
+  border-color: #4fd34d86 !important;
 }
 .fork-btn-inner::after {
   display: none !important;
