@@ -8,7 +8,8 @@ import {
   SiMacos,
   SiGithub,
   SiAwsamplify,
-  SiKalilinux
+  SiKalilinux,
+  SiSnyk
 } from "react-icons/si";
 
 function Toolstack() {
@@ -30,10 +31,12 @@ function Toolstack() {
         <SiAwsamplify />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiSnyk />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiKalilinux/>
       </Col>
-      
-      
+  
     </Row>
   );
 }
