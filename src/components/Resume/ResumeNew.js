@@ -17,6 +17,15 @@ function ResumeNew() {
 
   return (
     <div>
+        <h1 className="project-heading">
+          
+        </h1>
+        <p style={{ color: "white" }}>
+         <br/>
+         <br/>
+         <br/>
+         COMING SOON
+        </p>
      {/*<Container fluid className="resume-section">
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
