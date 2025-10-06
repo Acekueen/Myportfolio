@@ -92,11 +92,11 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item> */}
 
-            <Nav.Item>
+           <Nav.Item>
               <Nav.Link
-                href="#" //Add Blogs link Later
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="/blog"
+                onClick={() => updateExpanded(false)}
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
