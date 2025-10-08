@@ -8,7 +8,10 @@ phases:
       - echo Installing dependencies...
       - rm -rf node_modules
       - yarn cache clean
-      - yarn install --frozen-lockfile
+      - yarn install
+      - echo Verifying gray-matter installation...
+      - ls -la node_modules | grep gray
+      - yarn list --pattern gray-matter
   build:
     commands:
       - echo Building the React app...
