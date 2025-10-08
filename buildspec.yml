@@ -6,7 +6,9 @@ phases:
       nodejs: 18
     commands:
       - echo Installing dependencies...
-      - yarn install
+      - rm -rf node_modules
+      - yarn cache clean
+      - yarn install --frozen-lockfile
   build:
     commands:
       - echo Building the React app...
