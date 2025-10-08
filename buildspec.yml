@@ -6,16 +6,15 @@ phases:
       nodejs: 18
     commands:
       - echo Installing dependencies...
-      - rm -rf node_modules
-      - yarn cache clean
-      - yarn install
+      - rm -rf node_modules package-lock.json
+      - npm install
       - echo Verifying gray-matter installation...
       - ls -la node_modules | grep gray
-      - yarn list --pattern gray-matter
+      - npm list gray-matter
   build:
     commands:
       - echo Building the React app...
-      - yarn build
+      - npm run build
 
 artifacts:
   base-directory: build
